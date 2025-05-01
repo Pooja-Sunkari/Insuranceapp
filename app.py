@@ -9,7 +9,7 @@ import joblib
 import numpy as np
 
 # Load model and preprocessing tools
-model = joblib.load("rf_model_sampled.pkl")
+model = joblib.load("rf_model_compressed.pkl")
 scaler = joblib.load("scaler_sampled.pkl")
 enc_gender = joblib.load("encoder_Gender_sampled.pkl")
 enc_vehicle_age = joblib.load("encoder_Vehicle_Age_sampled.pkl")
